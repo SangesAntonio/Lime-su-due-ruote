@@ -1,0 +1,84 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+.pageblack{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 1300px;
+  height: 900px;
+  margin: auto;
+  border-radius: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+div > img{
+  width: 200px;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
+nav div{
+  background-color: rgba(0, 255, 0, 0.9);
+  width: 1000px;
+  height: 40px;
+  border-radius: 5px;
+  margin: auto;
+}
+
+div > h1{
+   color: rgb(0, 255, 0);
+   text-align: center;
+   font-family: 'Poppins', sans-serif;
+ }
+
+ .prenota{
+   margin-left: 35%;
+   margin-top: 7px;
+ }
+
+ div > h2{
+   display: inline-block;
+   color: white;
+   margin-bottom: 5px;
+ }
+
+ section > div{
+   margin-left: 150px;
+ }
+
+ div > p{
+   color: white;
+   margin-top: 0;
+   margin-bottom: 5px;
+ }
+
+ div p:last-child{
+   margin-top: 5px;
+   margin-bottom: 3px;
+ }
+
+.batteria{
+   background-color: rgba(255, 150, 0, 0.8);
+   width: 300px;
+   height: 30px;
+   border-radius: 15px;
+   display: inline-block;
+}
+
+.batteriaseconda{
+  background-color: rgba(0, 250, 0, 0.8);
+  width: 600px;
+  height: 30px;
+  border-radius: 15px;
+  display: inline-block;
+}
+
+.batteriaterza{
+  background-color: rgba(255, 0, 0, 0.8);
+  width: 200px;
+  height: 30px;
+  border-radius: 15px;
+  display: inline-block;
+}
